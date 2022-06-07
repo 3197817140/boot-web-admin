@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/city}" method="post">
+    id:<input type="text" name="id">
+    name:<input type="text" name="name">
+    state:<input type="text" name="state">
+    country:<input type="text" name="country">
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
